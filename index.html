@@ -6,10 +6,11 @@
   <title>Animais Fantásticos</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+  <script>document.documentElement.className += ' js';</script>
   <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 <body>
-<nav class="menu">
+<nav class="menu js-menu">
   <ul>
     <li><a href="#animais">Animais</a></li>
     <li><a href="#faq">Faq</a></li>
@@ -17,9 +18,9 @@
     <li><a href="https://www.origamid.com/">Dev →</a></li>
   </ul>
 </nav>
-<section class="grid-section animais" id="animais">
+<section class="grid-section animais js-scroll" id="animais">
   <h1 class="titulo">Animais Fantásticos</h1>
-  <ul class="animais-lista">
+  <ul class="animais-lista js-tabmenu">
     <li>
       <img src="img/imagem1.jpg">
     </li>
@@ -39,11 +40,10 @@
       <img src="img/imagem6.jpg">
     </li>
   </ul>
-  <div class="animais-descricao">
+  <div class="animais-descricao js-tabcontent">
     <section>
       <h2>Raposa</h2>
-      <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados
-        por um focinho comprido e uma cauda longa e peluda.</p>
+      <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados por um focinho comprido e uma cauda longa e peluda.</p>
       <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
       <p>De cerca de 40 espécies reconhecidas como raposas, somente 12 pertencem ao gênero Vulpes das "raposas verdadeiras", do
         qual a raposa vermelha é a mais comum.</p>
@@ -52,11 +52,8 @@
 
     <section>
       <h2>Esquilo</h2>
-      <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados
-        por um focinho comprido e uma cauda longa e peluda.</p>
-      <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
-      <p>De cerca de 40 espécies reconhecidas como raposas, somente 12 pertencem ao gênero Vulpes das "raposas verdadeiras", do
-        qual a raposa vermelha é a mais comum.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam amet consectetur consequatur dolor earum eligendi fugit in labore laborum minima, obcaecati officia quisquam, quos repellat totam veniam voluptatem? Repellendus!</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum illum impedit numquam odit omnis quisquam velit voluptate. Esse nam neque nulla officia perspiciatis porro quidem! Aliquid asperiores doloribus incidunt obcaecati!</p>
       <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
     </section>
     <section>
@@ -70,11 +67,7 @@
     </section>
     <section>
       <h2>Lobo</h2>
-      <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados
-        por um focinho comprido e uma cauda longa e peluda.</p>
-      <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
-      <p>De cerca de 40 espécies reconhecidas como raposas, somente 12 pertencem ao gênero Vulpes das "raposas verdadeiras", do
-        qual a raposa vermelha é a mais comum.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis dignissimos, et impedit labore laudantium molestias nesciunt odio perspiciatis quaerat quo repudiandae sit ullam. Molestias neque nulla officiis optio similique voluptates.</p>
       <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
     </section>
     <section>
@@ -98,7 +91,7 @@
   </div>
 </section>
 
-<section class="grid-section faq" id="faq">
+<section class="grid-section faq js-accordion js-scroll" id="faq">
   <h1 class="titulo">FAQ</h1>
   <dl class="faq-lista">
     <dt>Qual a idade dos animais?</dt>
@@ -112,7 +105,7 @@
   </dl>
 </section>
 
-<section class="grid-section contato" id="contato">
+<section class="grid-section contato js-scroll" id="contato">
   <h1 class="titulo">Contato</h1>
   <div class="mapa">
     <img src="img/mapa.png">
